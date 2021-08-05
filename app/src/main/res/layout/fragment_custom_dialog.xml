@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".customdialog.CustomDialogFragment">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/rattingTextView"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Rating services of MIIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<RadioGroup
+
+    android:layout_marginTop="80dp"
+    android:id="@+id/rattingRadioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/courseContentRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course content are Good"
+        android:textSize="20sp"
+
+        />
+
+    <RadioButton
+        android:id="@+id/facultyRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculties are Good"
+        android:textSize="20sp"
+        />
+
+    <RadioButton
+        android:id="@+id/miitInstituteRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIIT services are Good"
+        android:textSize="20sp"
+        />
+
+    <RadioButton
+        android:id="@+id/courseRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course are Good"
+        android:textSize="20sp"
+        />
+</RadioGroup>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/confirmButton"
+            android:text="Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_marginLeft="4dp"
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
